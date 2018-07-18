@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Research"
+description: "Pedersen Lab Research"
+group: navigation
+navorder: 1
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.research %}
+	{% assign researchpage = page %}
+{% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+{{ researchpage.content }}

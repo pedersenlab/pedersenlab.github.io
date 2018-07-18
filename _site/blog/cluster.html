@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Cluster Part 1 | Pedersen Laboratory</title>
+    
+    <meta name="author" content="Nigel Pedersen">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Optional theme -->
+    <link href="/assets/themes/lab/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/lab/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
+
+    <!-- Custom styles -->
+    <link href="/assets/themes/lab/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
+
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="/assets/themes/lab/images/logo/favicon.png"/>
+
+    <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+
+    <!-- Fonts via Google -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
+
+    <!-- Math via MathJax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    -->
+
+  </head>
+
+  <body>
+
+  <!-- Static top navbar -->
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class='container'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/">
+        <img class="pull-left logo" src="/assets/themes/lab/images/logo/lab-logo.png" type="png">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+        <ul class="nav navbar-nav navbar-left hidden-sm">
+          <!-- Don't put site title on home page -- there's already a big title there. -->
+          
+          
+          
+          <a class="navbar-brand" href="/">Pedersen Laboratory</a>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right pull-right">
+          
+          
+          
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/research">Research</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/papers/">Papers</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/team/">Team</a></li>
+      	
+      
+    
+  
+
+
+
+          <!--<li class="dropdown nav navbar-nav">-->
+            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">-->
+              <!--More <span class="caret"></span>-->
+            <!--</a>-->
+
+            <!--<ul class="dropdown-menu nav navbar-nav" role="menu">-->
+              <!---->
+              <!---->
+              <!--
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+-->
+            <!--</ul>-->
+          <!--</li>-->
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+   </div>
+
+   <!-- Content -->
+   <div class="container">
+      
+<div class="page-header">
+  <h1>Cluster Part 1 </h1>
+</div>
+
+
+
+
+<div class="row post-full">
+  <div class="col-md-2">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+        <div class="smallhead">
+          29 Sep 2016
+                     
+        </div>
+        <div class="bigspacer"></div>
+       <div class="smallhead">
+        Share
+      </div>
+        <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+        <div class="post-sharing">
+         
+
+  
+  		<!-- Twitter -->
+<i class="fa fa-twitter fa-fw"></i>
+<a class="off" href="https://twitter.com/share?url=&text=" data-text="Cluster Part 1" data-via="" data-related="npederslab" target="_blank">tweet</a>
+
+	
+
+
+        </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this--> 
+      <div class="content">
+        <p>So given the constraints of my research budget, I did not (nor expect to have) $250,000+ to buy a new HPC cluster. While Cloud Computing is also exciting, and I’ll probably discuss some musings on that in a separate post, there’s a lot of unknown costs that make it hard for me to predict. One of the biggest challenges, is that my “base” data set is approximately 20 Terabytes. When I first started looking into this 4-5 years ago, storing that amount of data was prohibitively expensive. Even now, it’s not cheap…</p>
+
+<p>So I started off small, with a 16 core server with some hard drives. I used Sun Grid Engine (and now torque) to handle job execution, and have stuck with Ubuntu as my primary OS.</p>
+
+<p>My first “BIG” purchase after this was a Storage NAS. I have been using QNAP devices for almost ten years, and have been a big fan. I like having at least some of my primary storage as an “appliance” . On multiple occasions I have fried my primary system during upgrades, installing software/etc.. and by having at least some of my files living in a stable spot (aka QNAP), I’ve saved myself a lot of frustration.</p>
+
+<p>Once the NAS was up and running, I purchased my first batch of servers. After spending a LOT of time searching around, I made a couple of executive decisions. While my head node and NAS were purchased new, for my compute cluster I basically wanted max # of CPU’s and memory for the least amount of money. One great option, particularly for a cash-strapped lab can do some of it’s own maintenance and doesn’t need to be truly production is to look into refurbished servers.</p>
+
+<p>My first batch of servers included 10 HPG6 DL160 servers. I was able to purchase each machine for about $800.</p>
+
+<p>HP ProLiant DL160 G6 1U 2x XEON HEX-CORE X5650 2.66GHz with 72GB DDR3. Each machine only had an 160GB drive for the primary OS, but that’s OK because everything was connected to my NAS which is where all the files lived. This was setup just using standard 1GB connectivity, and basically was able to rack all the machines fairly quickly…</p>
+
+<p>Purchasing a similarly specced machine new would have cost me around $4000-$5000 each. The only downside, is that I don’t have any warranty (other than the 90 days from the vendor). However unless I have incredibly poor luck, if any of the machines wound up dying I’d still be WAY ahead. Also these aren’t the absolutely latest generation, but for bulk parallel computation, it doesn’t matter. Also the marginal improvement from generation to generation is not a factor of 10… it’s usually several percent increases.</p>
+
+<p>So basically, for an $8000 investment, I now purchased 120 cores (240 threads) of computing, and 720GB of RAM (72GB / server is quite nice).</p>
+
+<p>So now I just have a lot of “stuff”…. I need to actually get them provisioned/configured…. That’s in the next post…</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#blog-ref">
+    		blog <span>2</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    --> 
+  
+
+  
+    <hr>
+    
+
+</div>
+
+
+   </div>
+
+
+  <!-- Static bottom navbar -->
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
+        <a href=http://www.gatech.edu>
+          <img class="logo" alt="Georgia Tech Biomedical Engineering" src=/assets/images/GT.jpg>
+        </a>
+        <a href=http://www.emory.edu>
+          <img class="logo" alt="Emory School of Medicine" src=/assets/images/ESOM.png>
+        </a>
+        <ul class="nav navbar-nav navbar-right navbar-small">
+          <li><a href='/about.html'>About</a></li>
+          <li><a href='/join.html'>Join</a></li>
+          <li><a href='/contact.html'>Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+    
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-103919622-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/lab/bootstrap/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+  </body>
+</html>
+

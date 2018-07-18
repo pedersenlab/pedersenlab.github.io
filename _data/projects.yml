@@ -1,0 +1,355 @@
+---
+- repo: DigitalSlideArchive/digitalslidearchive.info
+  title: digitalslidearchive.info
+  owner: DigitalSlideArchive
+  description: This contains documentation for installation and maintenance for the
+    DSA, Girder and HistomicsTK
+  url: "/projects/digitalslidearchive.info/"
+  contributors:
+  - login: dgutman
+    avatar: https://avatars3.githubusercontent.com/u/713166?v=4&s=50
+    url: https://github.com/dgutman
+  commits:
+  - date: 2018-07-16 21:13:48.000000000 Z
+    message: Update README.md
+    url: https://github.com/DigitalSlideArchive/digitalslidearchive.info/commit/8990e103f09362e9930b5fdee009a705fdeb9ed6
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2018-07-16 21:13:36.000000000 Z
+    message: Update README.md
+    url: https://github.com/DigitalSlideArchive/digitalslidearchive.info/commit/3760852edb7bc68bff592f91cafaa15d97a347e9
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2018-07-16 21:12:49.000000000 Z
+    message: Update README.md
+    url: https://github.com/DigitalSlideArchive/digitalslidearchive.info/commit/ed3575195a1a46ed10f3a4160657e8c6b6763d64
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2018-07-16 21:12:36.000000000 Z
+    message: Update README.md
+    url: https://github.com/DigitalSlideArchive/digitalslidearchive.info/commit/99c82bcfd3a2f0f1bf7ac7c8ccabbd5e461877d9
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2018-06-12 15:28:07.000000000 Z
+    message: Update InstallingNvidiaDocker.md
+    url: https://github.com/DigitalSlideArchive/digitalslidearchive.info/commit/6f9fbb70a21ca504120b5139ac8bd5956cef71ed
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+- repo: dgutman/KerasSimpsons_Tensorflow
+  title: KerasSimpsons_Tensorflow
+  owner: dgutman
+  description: Tutorial and stats to build a simple machine learning classifier using
+    Tensorflow + Keras
+  url: "/projects/KerasSimpsons_Tensorflow/"
+  contributors:
+  - login: dgutman
+    avatar: https://avatars3.githubusercontent.com/u/713166?v=4&s=50
+    url: https://github.com/dgutman
+  - login: fgiuste7
+    avatar: https://avatars2.githubusercontent.com/u/37229086?v=4&s=50
+    url: https://github.com/fgiuste7
+  commits:
+  - date: 2018-07-16 20:00:24.000000000 Z
+    message: 'WIP: viewer for results'
+    url: https://github.com/dgutman/KerasSimpsons_Tensorflow/commit/386d7d791b9e84711a35a783bd4d2933ea506552
+    author_login: 
+    author_url: 
+  - date: 2018-07-09 21:30:03.000000000 Z
+    message: updates to nvidia docker start script and cleaned up simpsonsmodel.py
+    url: https://github.com/dgutman/KerasSimpsons_Tensorflow/commit/1999893cf9c9a6e2de57516e010559f023b9da95
+    author_login: 
+    author_url: 
+  - date: 2018-07-03 19:37:07.000000000 Z
+    message: trying to get this whole pipeline working using nvidia docker
+    url: https://github.com/dgutman/KerasSimpsons_Tensorflow/commit/b801b67e54b758d36e8136c4d77c97d8db10185e
+    author_login: 
+    author_url: 
+  - date: 2018-07-03 18:54:50.000000000 Z
+    message: trying to get docker run working
+    url: https://github.com/dgutman/KerasSimpsons_Tensorflow/commit/93a2abf7a23bad33741f1d2f84271704eaadcf0c
+    author_login: 
+    author_url: 
+  - date: 2018-07-02 19:58:44.000000000 Z
+    message: added item count and class updates
+    url: https://github.com/dgutman/KerasSimpsons_Tensorflow/commit/b579ec600b83f2685b55ccd8ba2ed36b5c34e2a9
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+- repo: DigitalSlideArchive/HistomicsTK
+  title: HistomicsTK
+  owner: DigitalSlideArchive
+  description: A Python and REST API for Histopathology Image Analysis
+  url: "/projects/HistomicsTK/"
+  contributors:
+  - login: jbeezley
+    avatar: https://avatars2.githubusercontent.com/u/31890?v=4&s=50
+    url: https://github.com/jbeezley
+  - login: manthey
+    avatar: https://avatars0.githubusercontent.com/u/8781639?v=4&s=50
+    url: https://github.com/manthey
+  - login: slee172
+    avatar: https://avatars1.githubusercontent.com/u/16363501?v=4&s=50
+    url: https://github.com/slee172
+  - login: cooperlab
+    avatar: https://avatars2.githubusercontent.com/u/1437329?v=4&s=50
+    url: https://github.com/cooperlab
+  - login: cdeepakroy
+    avatar: https://avatars1.githubusercontent.com/u/1923534?v=4&s=50
+    url: https://github.com/cdeepakroy
+  commits:
+  - date: 2018-07-13 19:56:39.000000000 Z
+    message: |-
+      Merge pull request #511 from DigitalSlideArchive/positive-pixel-defaults
+
+      Fix output file specification for Positive Pixel Count.
+    url: https://github.com/DigitalSlideArchive/HistomicsTK/commit/03223d1727ba9ffa08ced79accd1a1f9e5a1e314
+    author_login: manthey
+    author_url: https://github.com/manthey
+  - date: 2018-07-13 19:40:59.000000000 Z
+    message: Merge branch 'master' into positive-pixel-defaults
+    url: https://github.com/DigitalSlideArchive/HistomicsTK/commit/78eb649217a33aaa8e4d4e3e0bf9bfc75dd130ca
+    author_login: manthey
+    author_url: https://github.com/manthey
+  - date: 2018-07-13 16:00:02.000000000 Z
+    message: "Bump timeout cutoff on waiting for girder to report version (#513)\n\nThe
+      timeout cutoff for [Waiting for girder to report version](https://github.com/DigitalSlideArchive/HistomicsTK/blob/9dd96013780451f21682db29a0ed562bf43d0452/ansible/deploy_docker.py#L750)
+      is currently set to 300 seconds. And this step takes ~600 seconds on my machine.This
+      commit bumps it to 3600 to allow enough time for it to finish on most machines.
+      \r\n\r\nCommit history\r\n--------------------\r\n* Bump timeout cutoff on waiting
+      for girder to report version\r\n\r\n* Minor refactor"
+    url: https://github.com/DigitalSlideArchive/HistomicsTK/commit/acf96b879a0e144a9e75ae8e170f3d1b374d33dc
+    author_login: cdeepakroy
+    author_url: https://github.com/cdeepakroy
+  - date: 2018-07-13 12:17:55.000000000 Z
+    message: |-
+      Handle an optional output label image.
+
+      This requires slicer_cli_web PR #62.  If no file is specified, none is
+      output (now properly handled).  If a file is specified without a valid
+      image extension, a .png is output.
+    url: https://github.com/DigitalSlideArchive/HistomicsTK/commit/bf1215cdc9dc7a19902ec1c028a4257f99ed2dd0
+    author_login: manthey
+    author_url: https://github.com/manthey
+  - date: 2018-07-10 11:54:36.000000000 Z
+    message: |-
+      Fix output file specification for Positive Pixel Count.
+
+      This also adds some default values.
+    url: https://github.com/DigitalSlideArchive/HistomicsTK/commit/691f0c587e16b28a0b90871795a3ba0db1f64481
+    author_login: manthey
+    author_url: https://github.com/manthey
+- repo: dgutman/DSA_CBIR_Prototypes
+  title: DSA_CBIR_Prototypes
+  owner: dgutman
+  description: Prototypes for Content Based Image Retrieval using Deep Learning and
+    Girder as the data store
+  url: "/projects/DSA_CBIR_Prototypes/"
+  contributors:
+  - login: dgutman
+    avatar: https://avatars3.githubusercontent.com/u/713166?v=4&s=50
+    url: https://github.com/dgutman
+  commits:
+  - date: 2018-03-30 21:22:44.000000000 Z
+    message: added jupyter interactive example that pulls image data directly into
+      browser
+    url: https://github.com/dgutman/DSA_CBIR_Prototypes/commit/bbd16b5b6047c80190e263eb6dcf3ff9b7d90bc3
+    author_login: 
+    author_url: 
+  - date: 2018-03-30 19:24:13.000000000 Z
+    message: adding addl jupyter notebooks for data generation;
+    url: https://github.com/dgutman/DSA_CBIR_Prototypes/commit/579e4fa345d0e065992bb71ecbc632f20d4003cb
+    author_login: 
+    author_url: 
+  - date: 2017-10-09 21:14:31.000000000 Z
+    message: made minor ipynb changes
+    url: https://github.com/dgutman/DSA_CBIR_Prototypes/commit/4d92776cfddb706540aa4c1e77045d964305ab99
+    author_login: 
+    author_url: 
+  - date: 2017-10-09 21:12:40.000000000 Z
+    message: switched to vgg19 and trying VERY basic graph model
+    url: https://github.com/dgutman/DSA_CBIR_Prototypes/commit/02ba828c84ca6eed2c17e605c2a1ff97f3ecdbd7
+    author_login: 
+    author_url: 
+  - date: 2017-10-06 15:21:05.000000000 Z
+    message: beginning to add web directory
+    url: https://github.com/dgutman/DSA_CBIR_Prototypes/commit/b7238b0371334581ce05fbf5846e8e758261ecae
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+- repo: DigitalSlideArchive/digital_slide_archive
+  title: digital_slide_archive
+  owner: DigitalSlideArchive
+  description: The top-level Girder plugin for Digital Slide Archive deployments.
+  url: "/projects/digital_slide_archive/"
+  contributors:
+  - login: jbeezley
+    avatar: https://avatars2.githubusercontent.com/u/31890?v=4&s=50
+    url: https://github.com/jbeezley
+  - login: brianhelba
+    avatar: https://avatars1.githubusercontent.com/u/1282879?v=4&s=50
+    url: https://github.com/brianhelba
+  - login: manthey
+    avatar: https://avatars0.githubusercontent.com/u/8781639?v=4&s=50
+    url: https://github.com/manthey
+  - login: zachmullen
+    avatar: https://avatars1.githubusercontent.com/u/555959?v=4&s=50
+    url: https://github.com/zachmullen
+  - login: dgutman
+    avatar: https://avatars3.githubusercontent.com/u/713166?v=4&s=50
+    url: https://github.com/dgutman
+  commits:
+  - date: 2018-03-30 16:53:13.000000000 Z
+    message: |-
+      Merge pull request #32 from DigitalSlideArchive/virtual-folders
+
+      Support virtual folders in the resource/:id/items endpoint.
+    url: https://github.com/DigitalSlideArchive/digital_slide_archive/commit/0202e4765d69a40b8e5549a1365ef8112b660afd
+    author_login: manthey
+    author_url: https://github.com/manthey
+  - date: 2018-03-30 16:12:43.000000000 Z
+    message: Change an import to avoid an alias.
+    url: https://github.com/DigitalSlideArchive/digital_slide_archive/commit/4807f3b1d835af77539fae896ce3b0a8362b6436
+    author_login: manthey
+    author_url: https://github.com/manthey
+  - date: 2018-03-28 20:41:03.000000000 Z
+    message: |-
+      Support virtual folders in the resource/:id/items endpoint.
+
+      Clean up the cmake list to remove a useless test and use the modern
+      Girder functions.
+    url: https://github.com/DigitalSlideArchive/digital_slide_archive/commit/d9e456a55390027b3ab0595761ea70c6456b9739
+    author_login: manthey
+    author_url: https://github.com/manthey
+  - date: 2018-01-19 19:52:11.000000000 Z
+    message: |-
+      Merge pull request #31 from DigitalSlideArchive/fix-travis-build
+
+      Fix travis build due to upstream changes
+    url: https://github.com/DigitalSlideArchive/digital_slide_archive/commit/a2d4c650d78637d139027d767a1aa020dd817f97
+    author_login: jbeezley
+    author_url: https://github.com/jbeezley
+  - date: 2018-01-19 19:08:31.000000000 Z
+    message: Fix travis build due to upstream changes
+    url: https://github.com/DigitalSlideArchive/digital_slide_archive/commit/39724705459fff47b2eb5b707b55d4faae7f9c64
+    author_login: jbeezley
+    author_url: https://github.com/jbeezley
+- repo: dgutman/d3-force-directed-graph
+  title: d3-force-directed-graph
+  owner: dgutman
+  description: Contains all examples of our "Interactive & Dynamic Force-Directed
+    Graphs with D3" blog post
+  url: "/projects/d3-force-directed-graph/"
+  contributors:
+  - login: rofrischmann
+    avatar: https://avatars0.githubusercontent.com/u/10060928?v=4&s=50
+    url: https://github.com/rofrischmann
+  - login: dgutman
+    avatar: https://avatars3.githubusercontent.com/u/713166?v=4&s=50
+    url: https://github.com/dgutman
+  commits:
+  - date: 2018-03-09 22:32:02.000000000 Z
+    message: Update dataModelForVisits.md
+    url: https://github.com/dgutman/d3-force-directed-graph/commit/0fce70271ce18a12b0787d84b7f34fb160a7abc3
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2018-03-09 22:24:35.000000000 Z
+    message: Create dataModelForVisits.md
+    url: https://github.com/dgutman/d3-force-directed-graph/commit/59fbe36e0790db8518bcd0412ca17d88aaa1cb96
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2018-03-09 19:53:52.000000000 Z
+    message: adding in basic webix UI tools
+    url: https://github.com/dgutman/d3-force-directed-graph/commit/54dc059ad8f10cb239a956e057dff0612b6c80b0
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2017-02-12 13:15:42.000000000 Z
+    message: formatted and fixed examples
+    url: https://github.com/dgutman/d3-force-directed-graph/commit/5de82ea6de9b1ed27d185dc7baba6ff0f6743a22
+    author_login: rofrischmann
+    author_url: https://github.com/rofrischmann
+  - date: 2017-02-12 13:15:35.000000000 Z
+    message: updated modular code example
+    url: https://github.com/dgutman/d3-force-directed-graph/commit/1ec0ddcea3197330e72a349fb27f3d1ebe3404cb
+    author_login: rofrischmann
+    author_url: https://github.com/rofrischmann
+- repo: dgutman/adrc-clustering
+  title: adrc-clustering
+  owner: dgutman
+  description: 
+  url: "/projects/adrc-clustering/"
+  contributors:
+  - login: scimk
+    avatar: https://avatars2.githubusercontent.com/u/6099774?v=4&s=50
+    url: https://github.com/scimk
+  - login: mobatusi
+    avatar: https://avatars2.githubusercontent.com/u/22042303?v=4&s=50
+    url: https://github.com/mobatusi
+  - login: dgutman
+    avatar: https://avatars3.githubusercontent.com/u/713166?v=4&s=50
+    url: https://github.com/dgutman
+  commits:
+  - date: 2017-09-13 15:27:38.000000000 Z
+    message: updated notebook
+    url: https://github.com/dgutman/adrc-clustering/commit/a653f8b86e694f9914a9c4c358fd5c0f45c7aa86
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2017-09-13 15:11:25.000000000 Z
+    message: adding jupyter code
+    url: https://github.com/dgutman/adrc-clustering/commit/e526537e11d10a0522993257bc936ed98c418bd0
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2017-06-13 19:28:39.000000000 Z
+    message: update
+    url: https://github.com/dgutman/adrc-clustering/commit/3db3d45f93d1e6ef3caf8496e0438f0c7e5a5602
+    author_login: scimk
+    author_url: https://github.com/scimk
+  - date: 2017-06-09 15:56:41.000000000 Z
+    message: update
+    url: https://github.com/dgutman/adrc-clustering/commit/387bad470587f27bde6c190d9c48a23911ef4820
+    author_login: scimk
+    author_url: https://github.com/scimk
+  - date: 2017-06-09 14:35:08.000000000 Z
+    message: update
+    url: https://github.com/dgutman/adrc-clustering/commit/21e23b0b40bee01ca8f29c864593cb795589c85f
+    author_login: scimk
+    author_url: https://github.com/scimk
+- repo: dgutman/OpenSeadragon-Plugins
+  title: OpenSeadragon-Plugins
+  owner: dgutman
+  description: A utility library that provides a number of extras to the Seadragon
+    AJAX viewer
+  url: "/projects/OpenSeadragon-Plugins/"
+  contributors:
+  - login: rsimon
+    avatar: https://avatars3.githubusercontent.com/u/470971?v=4&s=50
+    url: https://github.com/rsimon
+  - login: dgutman
+    avatar: https://avatars3.githubusercontent.com/u/713166?v=4&s=50
+    url: https://github.com/dgutman
+  - login: wegewerk-mdt
+    avatar: https://avatars1.githubusercontent.com/u/2854789?v=4&s=50
+    url: https://github.com/wegewerk-mdt
+  commits:
+  - date: 2013-06-27 16:00:44.000000000 Z
+    message: Merge branch 'master' of github.com:dgutman/openseajax-utils
+    url: https://github.com/dgutman/OpenSeadragon-Plugins/commit/ecb57fa19910c252db4b394c3000f886a6957e95
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2013-06-27 16:00:34.000000000 Z
+    message: cleaning up openseajax intro page
+    url: https://github.com/dgutman/OpenSeadragon-Plugins/commit/52c48bcf356f4627a8134f067e45cd200b5da30a
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2013-06-27 15:24:01.000000000 Z
+    message: Update annotations.README
+    url: https://github.com/dgutman/OpenSeadragon-Plugins/commit/9976a5e1489dae936e0543e98970b9e128fdff94
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2013-06-27 14:22:56.000000000 Z
+    message: Update annotations.README
+    url: https://github.com/dgutman/OpenSeadragon-Plugins/commit/d654214c82a87d0ae0947a98f96e5d336211c1b5
+    author_login: dgutman
+    author_url: https://github.com/dgutman
+  - date: 2013-06-27 13:34:59.000000000 Z
+    message: Update annotations.README
+    url: https://github.com/dgutman/OpenSeadragon-Plugins/commit/4a59d96f0833b15a1f6f01338989dd54f8c26d22
+    author_login: dgutman
+    author_url: https://github.com/dgutman

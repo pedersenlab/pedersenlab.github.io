@@ -1,7 +1,7 @@
 ---
 layout: member
-title: Nigel Pedersen
-position: Principal Investigator
+title: Nigel Pedersen 
+position: MBBS - Principal Investigator
 email: npeders@emory.edu
 scholar: PJv7YMcAAAAJ
 image: /assets/images/team/NPedersen.jpg
